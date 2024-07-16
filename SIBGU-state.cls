@@ -50,9 +50,9 @@
 
 % Настройка раздела, подраздела, подподраздела
 \RequirePackage{titlesec}
-\titleformat{\section}{\FloatBarrier\parskip=6pt\filcenter\fontsize{16pt}{16pt}\selectfont\bfseries\uppercase}{\thesection}{.5em}{}
-\titleformat{\subsection}{\FloatBarrier\filcenter\bfseries}{\thesubsection}{.5em}{}
-\titleformat{\subsubsection}{\FloatBarrier\filcenter\bfseries}{\thesubsubsection}{.5em}{}
+\titleformat{\section}{\FloatBarrier\parskip=6pt\filright\fontsize{18pt}{18pt}\selectfont\uppercase}{\thesection}{.5em}{}
+\titleformat{\subsection}{\FloatBarrier\filright}{\thesubsection}{.5em}{}
+\titleformat{\subsubsection}{\FloatBarrier\filright}{\thesubsubsection}{.5em}{}
 
 
 \AddToHook{cmd/section/before}{\clearpage} % Начинать раздел с новой страницы
